@@ -1,0 +1,17 @@
+{
+    "name": "imefisto/paw-salon",
+    "description": "An application to manage pet grooming services",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Imefisto\\PawSalon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ignacio El Kadre",
+            "email": "ignacio@inek.com.ar"
+        }
+    ],
+    "require": {}
+}
