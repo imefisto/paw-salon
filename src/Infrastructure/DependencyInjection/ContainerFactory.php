@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Imefisto\SwooleKit\Infrastructure\DependencyInjection;
+namespace PawSalon\Infrastructure\DependencyInjection;
 
 use DI\ContainerBuilder;
 use Psr\Container\ContainerInterface;

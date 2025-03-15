@@ -1,5 +1,7 @@
 <?php
 
+use PawSalon\Presentation\Controller\Pet;
+
 return [
-    ['POST', '/pets', [PetController::class, 'register']],
+    ['POST', '/pets', [Pet::class, 'register']],
 ];

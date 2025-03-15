@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Imefisto\PawSalon\Infrastructure\Swoole;
+namespace PawSalon\Infrastructure\Swoole;
 
-use Imefisto\PawSalon\Infrastructure\Routing\Router;
 use Imefisto\PsrSwoole\PsrRequestFactory;
 use Imefisto\PsrSwoole\ResponseMerger;
+use PawSalon\Infrastructure\Routing\Router;
 use Swoole\Http\Request;
 use Swoole\Http\Response;
 use Swoole\WebSocket\Frame;
