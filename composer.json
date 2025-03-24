@@ -4,7 +4,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Imefisto\\PawSalon\\": "src/"
+            "PawSalon\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,11 @@
             "email": "ignacio@inek.com.ar"
         }
     ],
-    "require": {}
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "php-di/php-di": "^7.0",
+        "league/route": "^6.2",
+        "imefisto/psr-swoole-native": "^2.0",
+        "nyholm/psr7": "^1.8"
+    }
 }

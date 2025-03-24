@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Imefisto\PawSalon\Infrastructure\Routing;
+namespace PawSalon\Infrastructure\Routing;
 
 use League\Route\Router as LeagueRouter;
 use League\Route\Strategy\ApplicationStrategy;
