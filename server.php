@@ -13,4 +13,12 @@ $routes = require __DIR__ . '/src/config/routes.php';
 $container = ContainerFactory::create($config, $dependencies, $routes);
 
 $server = $container->get(Server::class);
+
+$server->set([
+    'document_root' => __DIR__ . '/public',
+    'enable_static_handler' => true,
+    'http_autoindex' => true,
+    'http_index_files' => ['index.html'],
+]);
+
 $server->run();
