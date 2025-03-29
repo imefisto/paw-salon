@@ -82,4 +82,9 @@ class Server
     ): Response {
         return $this->responseMerger->toSwoole($psrResponse, $swooleResponse);
     }
+
+    public function set(array $options): void
+    {
+        $this->server->set($options);
+    }
 }
