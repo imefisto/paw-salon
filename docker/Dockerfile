@@ -1,4 +1,4 @@
-FROM phpswoole/swoole:6.0.0-php8.3
+FROM ghcr.io/imefisto/swoole:6.1-php8.3-alpine
 
 WORKDIR /var/www
 
